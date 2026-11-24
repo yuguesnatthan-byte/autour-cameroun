@@ -1,0 +1,73 @@
+name: Proposer une activité
+description: Ajoutez une fiche restaurant, activité ou lieu à découvrir au Cameroun.
+title: "[Proposition] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de contribuer à Autour. Les propositions sont **publiques** et seront vérifiées avant leur ajout à l’application. N’inscrivez pas de données privées ou de coordonnées personnelles.
+  - type: input
+    id: activity_name
+    attributes:
+      label: Nom de l’activité ou du lieu
+      placeholder: Ex. restaurant, musée, plage ou excursion
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Catégorie
+      options:
+        - Restaurant
+        - Activité de loisirs
+        - Site touristique ou patrimoine
+        - Nature ou plage
+        - Culture ou marché
+        - Autre
+    validations:
+      required: true
+  - type: input
+    id: city
+    attributes:
+      label: Ville ou commune
+      placeholder: Douala, Yaoundé, Kribi…
+    validations:
+      required: true
+  - type: input
+    id: area
+    attributes:
+      label: Quartier, village ou repère local
+      placeholder: Bonapriso, près du marché…
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description utile aux visiteurs
+      description: Que peut-on y faire ? Mentionnez les conditions d’accès importantes.
+      placeholder: Décrivez l’activité et les conseils pratiques.
+    validations:
+      required: true
+  - type: input
+    id: public_link
+    attributes:
+      label: Lien public de référence
+      description: Site officiel, page publique ou source permettant de vérifier la fiche.
+      placeholder: https://…
+    validations:
+      required: true
+  - type: textarea
+    id: visit_data
+    attributes:
+      label: Fréquentation publiée (facultatif)
+      description: Indiquez la source et l’année. Les avis en ligne ne sont pas un nombre de visiteurs.
+      placeholder: Source, année et chiffre publié, ou laissez vide.
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Avant d’envoyer
+      options:
+        - label: J’ai le droit de partager ces informations publiques et je n’ai pas inclus de données privées.
+          required: true
