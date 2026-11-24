@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "Autour — Sorties au Cameroun",
+  "short_name": "Autour",
+  "description": "Trouvez des restaurants, activités et lieux à découvrir près de chez vous au Cameroun.",
+  "lang": "fr-CM",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f5f6f1",
+  "theme_color": "#174b3c",
+  "categories": ["travel", "food", "lifestyle"],
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
