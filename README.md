@@ -11,3 +11,7 @@ Une fois le site en ligne :
 - iPhone : ouvrez l’adresse dans Safari, touchez **Partager**, puis **Sur l’écran d’accueil**.
 
 Le bouton d’installation intégré apparaît dans les navigateurs Android qui exposent l’invite d’installation. La PWA n’est pas un fichier APK; elle nécessite une adresse HTTPS publique pour être installée par le public.
+## Proposer une activité
+
+Le bouton **Proposer une activité** ouvre un formulaire GitHub public. Un compte GitHub est nécessaire pour envoyer une proposition. Les fiches arrivent dans une file de vérification et doivent être validées avant d’être ajoutées à l’annuaire. Ne soumettez pas de données privées.
+
